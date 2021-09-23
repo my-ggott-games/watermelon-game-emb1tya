@@ -80,7 +80,7 @@ window.boot = function() {
             var percent = 100 * completedCount / totalCount;
             if (loadingBool && loadingNum >= 1 && totalCount > 1) {
                 if (percent.toFixed(0) >= 100) {
-                    loadintT.innerHTML = '엔프피가 게임 불러오는 중......100' + '%';
+                    loadintT.innerHTML = '엔프피가 게임 불러오는 중......100 ' + '%';
                     setTimeout(function() {
                         loadingBool = false;
                         loadintT.remove();
@@ -95,7 +95,7 @@ window.boot = function() {
             // var percent = 100 * completedCount / totalCount;
             // if(loadingBool && loadingNum >= 1){
             // 	   console.log("dskpi",loadingNum);
-            // 	   loadintT.innerHTML = 'loading......' + parseInt(percent)  + '%';
+            // 	   loadintT.innerHTML = 'loading...... ' + parseInt(percent)  + '%';
             // 	   if(percent.toFixed(0) >= 100){
 
             // 		   loadingBool = false;
