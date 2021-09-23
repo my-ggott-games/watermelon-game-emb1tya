@@ -27,7 +27,7 @@ let setFruits = {
 }
 
 // 과일 Q탄 더하기: false를 1보다 작은 임의의 소수로 바꿉니다 (0.9 추천)
-let fruitQTan = 0.9;
+let fruitQTan = 0.3;
 
 // 과일 낙하속도 감소：false를 0보다 많은 임의의 수로 변경한다. 값이 클수록 저항이 더디게 내린다(5 추천)
 let fruitSlowDown = false;
