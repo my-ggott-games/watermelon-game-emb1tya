@@ -4,7 +4,7 @@
  */
 
 // 추가 점수: 숫자 수정
-let extraScore = 10;
+let extraScore = 1;
 
 // 무적 모드: true를 false로 변경
 let wuDi = true;
